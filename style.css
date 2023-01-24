@@ -120,20 +120,33 @@ main {
     margin: 0 auto;
 }
 
+.container-contato {
+    padding: 0px 50px;
+}
+
 .form-contato {
     margin: 30px 0;
 }
 
-.form-contato label {
+.label-padrao{
     display: block;
     margin-bottom: 10px;
     font-size: 15px;
     font-weight: 600;
 }
 
-.imput-padrão {
+.imput-padrao {
     display: block;
     margin-bottom: 15px;
     width: 50%;
     padding: 10px 20px;
+}
+
+.label-radio-msg {
+    margin-bottom: 10px;
+}
+
+.checkbox {
+    display: block;
+    margin: 20px 0px;
 }
