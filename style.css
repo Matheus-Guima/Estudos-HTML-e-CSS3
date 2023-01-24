@@ -113,3 +113,27 @@
     margin-top: 10px;
     color: white;
 }
+
+main {
+    max-width: 980px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.form-contato {
+    margin: 30px 0;
+}
+
+.form-contato label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.imput-padrão {
+    display: block;
+    margin-bottom: 15px;
+    width: 50%;
+    padding: 10px 20px;
+}
