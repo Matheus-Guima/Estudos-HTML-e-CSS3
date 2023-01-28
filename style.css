@@ -155,7 +155,7 @@ main {
 }
 
 .btn-submt {
-    margin-top: 15px;
+    margin-top: 30px;
     width: 40%;
     padding: 15px 0;
     border: none;
@@ -170,4 +170,18 @@ main {
 .btn-submt:hover {
     background-color: rgb(2, 153, 2);
     transform: scale(1.2); /*Aumenta em 20% */
+}
+
+.tabela {
+    margin: 50px 0 15px 0;
+
+}
+
+thead {
+    background-color: rgb(172, 172, 172);
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 8px 15px;
 }
