@@ -46,7 +46,7 @@
 }
 
 .navigation a:hover {
-    color: rgb(71, 71, 71);
+    color: white;
     text-decoration: underline;
 }
 
@@ -149,4 +149,25 @@ main {
 .checkbox {
     display: block;
     margin: 20px 0px;
+}
+.msg-dropdown {
+    margin-bottom: 10px;
+}
+
+.btn-submt {
+    margin-top: 15px;
+    width: 40%;
+    padding: 15px 0;
+    border: none;
+    border-radius: 100px;
+    background-color: darkgreen;
+    color: white;
+    font-weight: bold;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.btn-submt:hover {
+    background-color: rgb(2, 153, 2);
+    transform: scale(1.2); /*Aumenta em 20% */
 }

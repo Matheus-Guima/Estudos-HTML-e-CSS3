@@ -25,42 +25,82 @@
                 </ul>
             </div>
         </div>
-
     </header>
 
     <main class="main-contato">
         <div class="container-contato">
             <form class="form-contato">
                 <label class="label-padrao" for="Nome-sobrenome">Nome e sobrenome</label>
-                <input type="text" class="imput-padrao" id="Nome-sobrenome">
+                <input type="text" class="imput-padrao" id="Nome-sobrenome" placeholder="Seu nome aqui">
 
                 <label class="label-padrao" for="Email">Email</label>
-                <input type="text" class="imput-padrao" id="Email">
+                <input type="email" class="imput-padrao" id="Email" required placeholder="email@domínio.com">
 
                 <label class="label-padrao" for="Telefone">Telefone</label>
-                <input type="text" class="imput-padrao" id="Telefone">
+                <input type="tel" class="imput-padrao" id="Telefone" required placeholder="(xx) xxxxx-xxxx">
+
+                <label class="label-padrao" for="mensagem">Mensagem</label>
+                <textarea name="mensagem" class="imput-padrao" id="mensagem" cols="70" rows="10"></textarea>
 
                 <div class="contato">
-                    <label class="label-padrao" for="mensagem">Mensagem</label>
-                    <textarea name="mensagem" class="imput-padrao" id="mensagem" cols="70" rows="10"></textarea>
+                    <fieldset>
+                        <legend class="label-radio-msg"> Como prefere o nosso contato?</legend>
 
-                    <p class="label-radio-msg">Como prefere o nosso contato?</p>
+                        <label class="label-padrao" for="radio-email"><input type="radio" name="contatos" id="radio-email">
+                        E-mail</label>
+                        
+                        <label class="label-padrao" for="radio-telefone"><input type="radio" name="contatos" id="radio-telefone">
+                        Telefone</label>
+                        
+                        <label class="label-padrao" for="radio-whatsapp"><input type="radio" name="contatos" id="radio-hatsapp" checked>
+                        Whatsapp</label>
+                        
+                        <label for="msg-checkbox" class="checkbox"><input type="checkbox" name="checkbox-contatos" id="msg-checkbox-contatos" checked>
+                        Gostaria de receber essas novidade por e-mail?</label>
+                    </fieldset>
 
-                    <label class="label-padrao" for="radio-email"><input type="radio" name="contatos" id="radio-email">
-                    E-mail</label>
-                    
-                    <label class="label-padrao" for="radio-telefone"><input type="radio" name="contatos" id="radio-telefone">
-                    Telefone</label>
-                    
-                    <label class="label-padrao" for="radio-whatsapp"><input type="radio" name="contatos" id="radio-hatsapp">
-                    Whatsapp</label>
-                    
-                    <label for="msg-checkbox" class="checkbox"><input type="checkbox" name="checkbox-contatos" id="msg-checkbox-contatos">
-                    Gostaria de receber essas novidade por e-mail?</label>
+                    <div class="container-dropdown">
+                        <fieldset class="drop-down">
+                            <legend class="msg-dropdown">Que horas gostaria de ser atendido?</legend>
+                            <select name="Dropdown" id="menu-dropdown">
+                                <option value="manha">Manhã</option>
+                                <option value="tare">Tarde</option>
+                                <option value="noite">Noite</option>
+                            </select>
+                        </fieldset>
+                    </div>
                 </div>
 
-                <input type="submit" value="Enviar formulário">
+                <input type="submit" class="btn-submt" value="Enviar formulário">
             </form>
+
+            <div class="container-tabela">
+                <table class="tabela">
+                    <thead>
+                        <tr>
+                            <th>Dia</th>
+                            <th>Horário</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Segunda</td>
+                            <td>8h ~ 20h</td>
+                        </tr>
+
+                        <tr>
+                            <td>Quarta</td>
+                            <td>8h ~20h</td>
+                        </tr>
+
+                        <tr>
+                            <td>Sexta</td>
+                            <td>8h ~20h</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+            </div>
         </div>
 
     </main>
