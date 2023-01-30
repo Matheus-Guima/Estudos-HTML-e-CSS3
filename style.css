@@ -1,3 +1,7 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
 .header-product {
     background-color: rgb(172, 172, 172);
 }
@@ -184,4 +188,47 @@ thead {
 th, td {
     border: 1px solid black;
     padding: 8px 15px;
+}
+
+/* css da página inicial  */
+
+.banner{
+    width: 100%;
+}
+
+.titulo-principal {
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+    clear: left;
+}
+
+.img-instrumentos {
+    max-width: 90px;
+    width: 100%;
+    float: left;
+    margin: 0 20px 20px 0;
+}
+
+.principal p {
+    margin: 0 0 1em;
+}
+
+.principal strong {
+    font-weight: bold;
+}
+
+.principal em {
+    font-style: italic;
+}
+
+.label-beneficios {
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+    clear: left;
+}
+
+.imagembeneficios {
+    width: 60%;
 }
