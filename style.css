@@ -222,6 +222,16 @@ th, td {
     clear: left;
 }
 
+/* Estudo de pseudo classes
+
+.titulo-principal::first-letter {
+    font-weight: bold;
+}
+
+.titulo-principal::first-line {
+    font-style: italic;
+} */
+
 .img-instrumentos {
     max-width: 90px;
     width: 100%;
@@ -296,6 +306,12 @@ th, td {
 
 .itens:first-child {
     font-weight: bold;
+}
+
+.itens::before {
+    margin-right: 5px;
+    font-weight: bold;
+    content: '\272D';  /* Conteudo da estrela */
 }
 
 .imagembeneficios {
