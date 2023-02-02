@@ -340,3 +340,10 @@ img ~ p {
 .principal p:not(#missao) {
     background-color: orange; Pega todos menos o p que tem id missao
 } */
+
+
+/* ESTUDO CALC 
+
+.principal {
+    width: calc(40% -26px);
+} */
