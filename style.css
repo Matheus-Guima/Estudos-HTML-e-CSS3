@@ -220,6 +220,7 @@ th, td {
     font-size: 2em;
     margin: 0 0 1em;
     clear: left;
+    /* color: rgba(0, 0, 0, 0.5);  Opacidade de 0.5 colocada na cor */
 }
 
 /* Estudo de pseudo classes
@@ -316,6 +317,12 @@ th, td {
 
 .imagembeneficios {
     width: 60%;
+    opacity: 1;
+    transition: 400ms;
+}
+
+.imagembeneficios:hover {
+    opacity: 0.8;
 }
 
 .video {
