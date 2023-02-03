@@ -221,6 +221,7 @@ th, td {
     margin: 0 0 1em;
     clear: left;
     /* color: rgba(0, 0, 0, 0.5);  Opacidade de 0.5 colocada na cor */
+    /* text-shadow: 2px 2px rgba(0, 0, 0, 0.3); Teste sombra no texto */
 }
 
 /* Estudo de pseudo classes
@@ -319,6 +320,7 @@ th, td {
     width: 60%;
     opacity: 1;
     transition: 400ms;
+    box-shadow: 10px 10px 10px 0 #000000; /* x, y, blur, intensidade da borda, cor */
 }
 
 .imagembeneficios:hover {
@@ -326,7 +328,8 @@ th, td {
 }
 
 .video {
-    width: 560px;
+    max-width: 560px;
+    width: 100%;
     margin: 2em auto 0 auto;
 }
 
@@ -353,4 +356,20 @@ img ~ p {
 
 .principal {
     width: calc(40% -26px);
+} */
+
+/* COMO TORNAR RESPONSIVO
+
+@media (max-width: 480px) {
+    main {
+        background: red;
+    }
+}
+
+ou
+
+@media screen and (max-width: 480px) {
+    main {
+        background: red;
+    }
 } */
